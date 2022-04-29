@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <style>
+        *{
+            font-family: sans-serif;
+           
+        }
+        body{
+            background-color: blueviolet;
+        }
+    #container{
+        width: 22%;
+       height: auto;
+        border: 1px solid gray;
+        margin: auto;
+        margin-top: 6%;
+        padding: 30px 10px;
+        background-color: white;
+        border-radius: 10px;
+
+    }
+    h1{
+        text-align: center;
+    }
+    #container>div{
+        margin-top: 50px;
+    }
+    input{
+        width: 80%;
+        margin-bottom: 10px;
+        display: block;
+        margin: auto;
+        padding: 10px;
+       border: 0px;
+       color: gray
+       
+       
+    }
+    #reset{
+        margin-top:20px ;
+    }
+   
+    #reset p{
+        color: gray;
+        font-size: 12px;
+       text-align: center;
+
+      
+    }
+    input:nth-child(5){
+        width: 85%;
+       margin-top: 30px;
+       margin-bottom: 40px;
+       padding: 15px;
+       color: white;
+       background-color: blueviolet;
+    }
+    hr{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    </style>
+   
+</head>
+<body>
+    <div id="container">
+        <h1>Login</h1>
+        <div>
+            <form>
+                <input type="email" placeholder="Email">
+                <hr>
+                <input type="password" placeholder="Password">
+                <hr>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+        <div id="reset">
+            <p>Forgot <a href="#">Password</a>?</p>
+            <p>Don`t have an account? <a href="#">Sign Up</a></p>
+        </div>
+       
+
+    </div>
+</body>
+</html>
