@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(195, 190, 190);
+}
+.Nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+
+.logo{
+    width: 20%;
+}
+
+.text{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.user{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
